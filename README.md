@@ -1,9 +1,14 @@
-# api documentation for  [connect-timeout (v1.8.0)](https://github.com/expressjs/timeout)  [![npm package](https://img.shields.io/npm/v/npmdoc-connect-timeout.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-timeout) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-timeout.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-timeout)
+# npmdoc-connect-timeout
+
+#### api documentation for  [connect-timeout (v1.8.0)](https://github.com/expressjs/timeout)  [![npm package](https://img.shields.io/npm/v/npmdoc-connect-timeout.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-timeout) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-timeout.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-timeout)
+
 #### Request timeout middleware for Connect/Express
 
-[![NPM](https://nodei.co/npm/connect-timeout.png?downloads=true)](https://www.npmjs.com/package/connect-timeout)
+[![NPM](https://nodei.co/npm/connect-timeout.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/connect-timeout)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-connect-timeout/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-connect-timeout_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-connect-timeout/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-connect-timeout/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-connect-timeout/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-connect-timeout/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-connect-timeout/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-connect-timeout/build/screenCapture.npmPackageListing.svg)
 
@@ -21,12 +26,10 @@
     },
     "contributors": [
         {
-            "name": "Douglas Christopher Wilson",
-            "email": "doug@somethingdoug.com"
+            "name": "Douglas Christopher Wilson"
         },
         {
             "name": "Jonathan Ong",
-            "email": "me@jongleberry.com",
             "url": "http://jongleberry.com"
         }
     ],
@@ -65,41 +68,32 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "aaron",
-            "email": "aaron.heckmann+github@gmail.com"
+            "name": "aaron"
         },
         {
-            "name": "defunctzombie",
-            "email": "shtylman@gmail.com"
+            "name": "defunctzombie"
         },
         {
-            "name": "dougwilson",
-            "email": "doug@somethingdoug.com"
+            "name": "dougwilson"
         },
         {
-            "name": "fishrock123",
-            "email": "fishrock123@rocketmail.com"
+            "name": "fishrock123"
         },
         {
-            "name": "jongleberry",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jongleberry"
         },
         {
-            "name": "mscdex",
-            "email": "mscdex@mscdex.net"
+            "name": "mscdex"
         },
         {
-            "name": "rauchg",
-            "email": "rauchg@gmail.com"
+            "name": "rauchg"
         },
         {
-            "name": "tjholowaychuk",
-            "email": "tj@vision-media.ca"
+            "name": "tjholowaychuk"
         }
     ],
     "name": "connect-timeout",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/expressjs/timeout.git"
@@ -113,16 +107,6 @@
     "version": "1.8.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module connect-timeout](#apidoc.module.connect-timeout)
-
-
-
-# <a name="apidoc.module.connect-timeout"></a>[module connect-timeout](#apidoc.module.connect-timeout)
 
 
 
