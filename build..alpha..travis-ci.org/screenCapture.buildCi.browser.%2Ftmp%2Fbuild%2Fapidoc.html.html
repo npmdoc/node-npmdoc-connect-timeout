@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/expressjs/timeout"
-
-    >connect-timeout (v1.8.0)</a>
+    <a href="https://github.com/expressjs/timeout">connect-timeout (v1.8.0)</a>
 </h1>
 <h4>Request timeout middleware for Connect/Express</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.connect-timeout">module connect-timeout</a><ol>
 
@@ -110,7 +103,7 @@
     <li>description and source-code<pre class="apidocCodePre">function timeout(time, options) {
   var opts = options || {}
 
-  var delay = typeof time === &#x27;string&#x27;
+  var delay = typeof time === 'string'
     ? ms(time)
     : Number(time || 5000)
 
@@ -119,11 +112,11 @@
   return function (req, res, next) {
     var id = setTimeout(function () {
       req.timedout = true
-      req.emit(&#x27;timeout&#x27;, delay)
+      req.emit('timeout', delay)
     }, delay)
 
     if (respond) {
-      req.on(&#x27;timeout&#x27;, onTimeout(delay, next))
+      req.on('timeout', onTimeout(delay, next))
     }
 
     req.clearTimeout = function () {
@@ -188,3 +181,4 @@
     ]
 </div>
 </div>
+</body></html>
