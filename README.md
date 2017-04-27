@@ -1,6 +1,6 @@
 # npmdoc-connect-timeout
 
-#### api documentation for  [connect-timeout (v1.8.0)](https://github.com/expressjs/timeout)  [![npm package](https://img.shields.io/npm/v/npmdoc-connect-timeout.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-timeout) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-timeout.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-timeout)
+#### basic api documentation for  [connect-timeout (v1.8.0)](https://github.com/expressjs/timeout)  [![npm package](https://img.shields.io/npm/v/npmdoc-connect-timeout.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-connect-timeout) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-connect-timeout.svg)](https://travis-ci.org/npmdoc/node-npmdoc-connect-timeout)
 
 #### Request timeout middleware for Connect/Express
 
@@ -104,7 +104,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks test/"
     },
-    "version": "1.8.0"
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
 
